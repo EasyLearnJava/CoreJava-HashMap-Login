@@ -22,8 +22,7 @@ public class DataStore {
 		return storedPassword;
 	}
 	
-	private void populateDummyData(){
-		
+	private void populateDummyData(){		
 		hashMapDB.put("raghu", "secret");
 		hashMapDB.put("naveen", "topsecret");		
 	}
